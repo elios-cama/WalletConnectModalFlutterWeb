@@ -23,7 +23,11 @@ dependencies:
   smooth_page_indicator: ^1.1.0
   universal_io: ^2.2.2
   url_launcher: ^6.2.6
-  w_common: ^3.0.1
+  w_common:
+    git:
+      url: https://github.com/elios-cama/w_common.git
+      ref: master
+      path: w_common
   walletconnect_flutter_v2: ^2.2.3
 
 dev_dependencies:
